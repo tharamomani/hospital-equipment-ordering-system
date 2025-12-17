@@ -1,0 +1,45 @@
+# ===== Java =====
+*.class
+*.log
+
+# ===== Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Spring Boot =====
+logs/
+spring.log
+
+# ===== IDEs =====
+## Eclipse
+.metadata/
+.project
+.classpath
+.settings/
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+## VS Code
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Docker =====
+*.env
+
+# ===== Build tools =====
+bin/
+
+# ===== Test reports =====
+surefire-reports/
+failsafe-reports/
+
+# ===== Others =====
+*.swp
+*.tmp
